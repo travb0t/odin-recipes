@@ -1,34 +1,51 @@
-* {
-    color:black;
-}
-
-type {
-    color: rgb(255, 255, 255);
-    background-color: #ffffff;
-}
-
-.class {
-    color:red;
-    background-color: rgba(255, 0, 0, 0.5);
-}
-
-#id {
-    color:green;
-    background-color: hsl(120, 100%, 25%);
-}
-
-.class.class2.class3 { 
+#title {
+    color: red;
     text-align: center;
 }
 
-.class #id {
-    font-size: 24px;
-} 
-
-body {
-    background-color: white;
+.subtitle {
+    text-align: center;
+    color: black;
 }
 
-li {
-    color: white;
+.links { 
+    text-align: center;
+    color: red;
+}
+
+.links a {
+    color: black;
+}
+
+.images{
+    margin-top: 40px;
+}
+
+.images img {
+    display: block;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    width: 512px;
+}
+
+.recipeimage {
+    display: block;
+    height: auto;
+    width: 512px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.recipe {
+    margin-top: 60px;
+    width: 70%;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.recipe h2 {
+    color: red;
 }
