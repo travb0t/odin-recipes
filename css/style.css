@@ -1,3 +1,8 @@
+* {
+    box-sizing: border-box;
+    border: 1px solid purple;
+}
+
 #title {
     color: red;
     text-align: center;
@@ -23,9 +28,7 @@
 
 .images img {
     display: block;
-    margin-top: 20px;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 20px auto;
     height: auto;
     width: 512px;
 }
@@ -48,8 +51,4 @@
 
 .recipe h2 {
     color: red;
-}
-
-* {
-    border: 1px solid purple;
 }
